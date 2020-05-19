@@ -1,0 +1,50 @@
+{
+  "name": "near_share",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "assemblyscript": "^0.9.4",
+    "jest": "^24.8.0",
+    "jest-environment-node": "^24.8.0",
+    "near-sdk-as": "^0.2.0",
+    "near-shell": "^0.18.0",
+    "polished": "^3.3.2",
+    "react": "^16.13.1",
+    "react-device-detect": "^1.11.14",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build_react": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "cd contract; node asconfig.js",
+    "dev:deploy:contract": "near dev-deploy",
+    "deploy:contract": "near deploy",
+    "deploy:pages": "gh-pages -d src",
+    "deploy": "yarn run build && yarn run deploy:contract && yarn run deploy:pages"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
