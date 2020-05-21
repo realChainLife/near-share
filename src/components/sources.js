@@ -52,7 +52,7 @@ export default function Sources(app) {
     <SourcesFrame id="sources">
       <Channel key="" onClick={() => {app.updateChannelThread(null, 0)}}>All messages</Channel>
       <Rule/>
-      <SourceName>Genres</SourceName>
+      <SourceName>Channels</SourceName>
       {channels.map(channel => (
         <Channel key={channel} onClick={() => {app.updateChannelThread(channel, 0)}}>{channel}</Channel>
       ))}
