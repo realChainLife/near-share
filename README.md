@@ -8,7 +8,9 @@ This project was generated from the NEAR protocol `chat-app` & bootstrapped with
 
 With this web-based app, users can join one or mor music rooms and interact with other users with similar interests. Current features include message sharing, we'll be adding additional features including audio & video sharing and image sharing. 
 
-In the project directory:
+The live demo of this application can be found [here](http://104.248.47.247:3000/)
+
+To run the application in a local environment got to the the project directory and run:
 
 * `yarn start` runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * `yarn test` Launches the test runner in the interactive watch mode. 
