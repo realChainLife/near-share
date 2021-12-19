@@ -42,7 +42,7 @@ const Rule = styled.div`
 `
 
 export default function Sources(app) {
-  let channels = ['Heavy Metal', 'Classical', 'Rap & Hiphop', 'Pop', 'RocknRoll', 'Soul & Blues'];
+  let channels = ['Introduction', 'Welcome', 'Private', 'Groups'];
   let threads = [];
   // eslint-disable-next-line
   for (const [key, value] of window.threads.entries()) {
